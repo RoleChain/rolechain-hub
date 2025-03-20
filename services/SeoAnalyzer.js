@@ -559,7 +559,7 @@ class SeoAnalyzer {
 
     async analyzePageSpeed(url) {
         try {
-            const API_KEY = 'AIzaSyCO9MYD8LhtSrbSGEPq6bFsqWMrC5nqrD0';
+            const API_KEY = process.env.GOOGLE_API_KEY;
             if (!API_KEY) {
                 throw new Error('PageSpeed API key not configured');
             }
