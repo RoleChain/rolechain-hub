@@ -115,6 +115,12 @@ DEEPINFRA_API_KEY=your_deepinfra_key
 GROQ_API_KEY=your_groq_key
 GOOGLE_API_KEY=your_google_key
 ROLECHAIN_API_KEY=your_rolechain_key
+TELEGRAM_API_ID=your_telegram_api_id
+TELEGRAM_API_HASH=your_telegram_api_hash
+FRONTEND_URL=your_frontend_url
+JWT_SECRET=your_jwt_secret
+YOUTUBE_MCP_KEY=your_youtube_mcp_key
+WRITER_API_KEY=your_writer_api_key
 ```
 
 3. Start the application:
